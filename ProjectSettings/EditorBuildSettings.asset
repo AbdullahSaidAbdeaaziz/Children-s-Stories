@@ -12,15 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Stories.unity
     guid: 1663ea676fbe2c444b842dc3fe9be39e
   - enabled: 1
-    path: Assets/Scenes/Story 1.unity
+    path: Assets/Scenes/Story1.unity
     guid: f48b09fb7130f2bd5b7a6a731f96d401
   - enabled: 1
     path: Assets/Scenes/Story2.unity
-    guid: e3346861e68aeceb0b0e4fb07e0ef0d9
+    guid: 90ab26d80fac58069a2b44272e64aef1
   - enabled: 1
     path: Assets/Scenes/Story3.unity
-    guid: 8ebb4634c722259e7ae1612e538e071c
+    guid: f0bd5b7cface85645aa692da410e8106
   - enabled: 1
     path: Assets/Scenes/Story4.unity
-    guid: f40e75c09b94121368a5d0bac0a3554e
+    guid: 00a6d8cef680c41b9a7081c94fed1b6e
   m_configObjects: {}
