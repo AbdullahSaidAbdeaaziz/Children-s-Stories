@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 1049656421}
   - component: {fileID: 1049656420}
   - component: {fileID: 1049656419}
+  - component: {fileID: 1049656423}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -575,6 +576,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1049656423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049656418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0db2260119f6252d8971b8f966aaf03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1707074741
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +622,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.0000153, y: 0}
+  m_AnchoredPosition: {x: -2.0000076, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1707074743
@@ -666,7 +679,6 @@ GameObject:
   - component: {fileID: 1933487228}
   - component: {fileID: 1933487227}
   - component: {fileID: 1933487226}
-  - component: {fileID: 1933487229}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -691,8 +703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284.20605, y: -139.51279}
-  m_SizeDelta: {x: 287.7091, y: 126.0284}
+  m_AnchoredPosition: {x: -213.7, y: -65.4915}
+  m_SizeDelta: {x: 228.3964, y: 80.6134}
   m_Pivot: {x: 0.5, y: 0.45979407}
 --- !u!114 &1933487226
 MonoBehaviour:
@@ -738,9 +750,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1933487229}
-        m_TargetAssemblyTypeName: MainMenusSelector, Assembly-CSharp
-        m_MethodName: TypesOfStoriesMenu
+      - m_Target: {fileID: 1049656423}
+        m_TargetAssemblyTypeName: StartGame, Assembly-CSharp
+        m_MethodName: GoToStories
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -788,18 +800,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933487224}
   m_CullTransparentMesh: 1
---- !u!114 &1933487229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933487224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3216042bd620a64508d992d18e1e0812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2007314955
 GameObject:
   m_ObjectHideFlags: 0
