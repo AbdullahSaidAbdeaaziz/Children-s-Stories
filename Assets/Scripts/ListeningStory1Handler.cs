@@ -12,15 +12,15 @@ public class ListeningStory1Handler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        videoPlayer = new VideoPlayer();
+        
 
-        videoPlayer.playOnAwake = false;
+        /*videoPlayer.playOnAwake = false;
         videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.RenderTexture;
         videoPlayer.url = "/home/youssef/Unity Projects/Children-s-Stories/Assets/Videos/Story1-out.webm";
         
-        VideoBackground.texture = videoPlayer;
+        VideoBackground.texture = videoPlayer;*/
 
-        videoPlayer.Play();
+        
             
     }
 
@@ -30,21 +30,10 @@ public class ListeningStory1Handler : MonoBehaviour
         
     }
 
-    public void PauseVideo() {
-        
-    }
-    public void ResumeVideo() {
-         
-    }
+  
 
-    public void BackToOralStories(){
-        SceneManager.LoadScene("OralStories");
+    public void BackToReading1(){
+        SceneManager.LoadScene("Reading 1");
     }
-    public void NextStory() {
-        // SceneManager.LoadScene("TypesOfStories");
-    }
-    public void PreviousStory() {
-        // SceneManager.LoadScene("TypesOfStories");
-    }
-    
+   
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class OralStoriesSelector : MonoBehaviour
+public class ReadingStorySelector : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -29,6 +29,10 @@ public class OralStoriesSelector : MonoBehaviour
     }
     public void PlayStory4() {
         SceneManager.LoadScene("ReadingStroy4");
+    }
+    public void PlayStory5()
+    {
+        SceneManager.LoadScene("ReadingStroy5");
     }
 
 }
